@@ -1,0 +1,61 @@
+.Eheader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Merienda", serif;
+    color: #0f0;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.cover{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    font-family:"Inconsolata", serif ;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+}
+
+.cover2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cover3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-family: "Inconsolata", serif ;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.new4{
+    font-family:"Inconsolata", serif  ;
+    font-size: 1.2rem;
+    color: #0f0;
+    text-align: center;
+}
+
+.Eexperties{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* @media (max-width:556px){
+    .Eheader{
+        font-size: 1.2rem;
+    }
+} */

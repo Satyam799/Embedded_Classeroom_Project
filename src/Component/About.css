@@ -1,0 +1,121 @@
+.Swapslide{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+
+
+
+
+.maina{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    padding: 50px;
+    
+
+}
+
+.Heading2{
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#0f0
+    
+}
+
+.img2{
+    height: 15rem;
+    opacity: 0.8;
+    border-radius: 100px;
+    
+}
+
+.Image_adjustment2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: transparent;
+}
+
+.aboutme{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    grid-column: 1/-1;
+}
+
+.innerabout{
+    width: 80%;
+    height: auto;
+    
+}
+
+.s1{
+    font-family: "Merienda", serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.perap{
+    font-family:"Inconsolata", serif;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    word-spacing: 5px;
+    line-height: 1.6;    
+}
+
+.highlight{
+    color: #0f0;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .mySwiper{
+    opacity: 0.9;
+    width: 90%;
+    border-radius: 20px;
+    height: 60vh;
+  }
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* @media(max-width:1461px){
+    .s1{
+        font-size: 20px;
+    }
+    .aboutme{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .perap{
+        font-size: 1rem;
+    }
+} */

@@ -1,0 +1,80 @@
+.edu {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    color: white;
+    gap: 40px;
+    padding: 50px;
+  }
+  .Resume {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Eduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+  
+  
+  
+  .changing2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    justify-items: center;
+  }
+  .buttondownload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+  .buttondownload:hover {
+    transform: scale(1.1);
+  }
+  
+  .normal {
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+  
+  .education5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .bechalor {
+    font-family: "Inconsolata", serif;
+  
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  
+  .colledge {
+    font-family: "Inconsolata", serif;
+    color: rgb(243, 248, 248);
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .discription {
+    font-family: "Inconsolata", serif;
+    color: #d3d3d3;
+  }
+  

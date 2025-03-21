@@ -1,0 +1,13 @@
+#particles{
+  position: absolute;
+  z-index: 1;
+}
+
+.app-container{
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  z-index: 1;
+}
+

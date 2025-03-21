@@ -1,0 +1,117 @@
+.firstlayout {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 20px;
+}
+.Image_adjustment {
+  opacity: 0.8;
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+}
+
+.img {
+  height: 25rem;
+}
+
+.new2 {
+  display: flex;
+  align-items: center;
+  color: greenyellow;
+}
+
+.welcome {
+  font-family: "Inconsolata", serif;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.tripathi {
+  font-weight: bold;
+}
+
+.stylingh {
+  font-family: "Inconsolata", serif;
+  font-weight: normal;
+  font-size: 3.3rem;
+  margin: 0;
+}
+.new3 {
+  font-family: "Inconsolata", serif;
+  font-weight: lighter;
+  font-size: 3.3rem;
+  margin: 0;
+}
+.instagramlogo {
+  cursor: pointer;
+  color: white;
+  transition: transform 0.3s ease-out, color 0.3s ease;
+}
+.instagramlogo:hover {
+  transform: scale(1.2);
+  color: crimson;
+}
+
+
+.wats{
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  cursor: pointer;
+}
+
+.type {
+  font-size: 1.4rem;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #d9ff00; /* Red font */
+  text-shadow: 0 0 5px rgba(0, 247, 255, 0.8), 0 0 15px rgba(255, 0, 0, 0.5);
+  animation: fadeIn 1s ease-in-out, flicker 1.5s infinite alternate, scaleUp 3s infinite ease-in-out;
+}
+
+
+
+
+
+/* @media (max-width: 1200px) {
+  .img {
+    height: 10rem;
+  }
+} */
+/* .card:hover:before {
+  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+  animation: rotBGimg 3.5s linear infinite;
+} */
+
+/* @media (max-width: 1305px) {
+  .img {
+    height: 10rem;
+  }
+  .new3 {
+    font-size: 1.5rem;
+  }
+  .stylingh {
+    font-size: 1.5rem;
+  }
+  .welcome {
+    font-size: 0.8rem;
+  }
+} */
