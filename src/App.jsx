@@ -1,10 +1,6 @@
 import { Outlet } from "react-router-dom";
 import "./App.css";
-import About from "./Component/About";
 import { Providerofcontetx } from "./Component/Context";
-import Eductional from "./Component/Eductional";
-import Experties from "./Component/Experties";
-import Firstlayout from "./Component/Firstlayout";
 import Footer from "./Component/Footer";
 import Header from "./Component/Header";
 import ParticlesComponent from "./Component/Particel";
