@@ -10,6 +10,7 @@ import Header from "./Component/Header";
 import ParticlesComponent from "./Component/Particel";
 
 function App() {
+  console.log('Hi')
   return (
     <Providerofcontetx>
       <ParticlesComponent id={"particles"} />
