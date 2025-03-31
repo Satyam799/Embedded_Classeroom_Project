@@ -6,14 +6,42 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { TypeAnimation } from "react-type-animation";
 import { BiLogoGmail } from "react-icons/bi";
+import { CiShare2 } from "react-icons/ci";
 
 import image from "../assets/WhatsAp.jpeg";
 import { FaWhatsappSquare } from "react-icons/fa";
+import file2 from '../assets/Embadded_classroom_QR_code.png'
 
 import { Uppost } from "./Context";
 
 function Firstlayout() {
   const { href } = Uppost();
+  async function handelQR(e){
+    e.preventDefault()
+    try {
+      // Get the QR image element
+      // const imgElement = document.getElementById(file2); // Ensure your QR image has this ID
+  
+      // // Convert image to Blob
+       const response = await fetch(file2);
+       const blob = await response.blob();
+      const file = new File([blob], "QR_Code.png", { type: blob.type });
+  
+
+    if(navigator.share){
+      await navigator.share({
+        title: "Check out our QR Code!",
+        text: "Scan this QR code to visit our website.",
+        files: [file], // Attach QR file
+      })
+    }else{
+      alert("Sharing is not supported on this browser.");
+
+    } 
+  }catch (error) {
+      console.error("Error sharing:", error);
+    }
+  }
 
   return (
     <>
@@ -82,6 +110,8 @@ function Firstlayout() {
               <FaLinkedinIn size={30} className="instagramlogo" />
             </a>
             <IoLogoGithub size={30} className="instagramlogo" />
+            <CiShare2 size={30} className="instagramlogo" onClick={handelQR}/>
+
           </div>
         </div>
 
